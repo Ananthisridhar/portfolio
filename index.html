@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+       
+        <div class="container">
+            <nav>
+                <h1 class="logo">Ananthi</h1>
+              
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Java Full stack Developer</p>
+                <h1>Hi,I'm <span>Ananthi</span><br> From Hosur</h1>
+            </div>
+            <a href="images/Ananthi-BE.pdf" download class="btn btn5">Download Cv</a>
+        </div>
+    </div>
+    <!-- .....about............ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="ananthi.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                   
+                    <p class="para">Passionate Java Full Stack Developer with expertise in building robust and scalable web applications. Proficient in both front-end and back-end technologies, with a strong foundation in Java and a variety of front-end frameworks.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiance')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contant active-tab" id="skils">
+                    <ul>
+                        <li><span>Java developer</span><br><br>Knowledge of Java,Jdbc,Servlet,Maven,Junit</li>
+                        <li><span>Front-end developer</span><br><br>Knowledge of Html,Css,Java script,React js</li>
+                        <li><span>Sql developer</span><br><br>Good understanding knowledge of Sql</li>
+                    </ul>
+                </div>
+                <div class="tab-contant" id="experiance">
+                    <ul>
+                        <li><span>Jr.Operation and maintenance Executive (Mar 2019-April 2021)</span><br><br>Role : Data entry work.
+                            Prepares, compiles, and sorts documents for data entry. Maintains a filing system and protects confidential customer information.
+                            </li>
+                        <li><span>Intern, Java Full Stack Developer (Mar 2023-Feb 2024)</span><br><br>Role:
+                            Developed hands-on experience with Java programming language, HTML/CSS, JavaScript,
+                            and related technologies.Contributed to the development of web applications, including
+                            implementing new features, debugging code, and optimizing performance</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contant" id="education">
+                    <ul>
+                        <li><span>BE-CSE (2014-2018)</span><br><br>University College of Engineering, Ariyalur.
+                               <br> 7.5/10 CGPA</li>
+                        <li><span>HSC (2012-2014)</span><br><br>Kongu Matric Higher Secondary School ,Morappur.<br>84%</li>
+                        <li><span>SSLC (2010-2012)</span><br><br>Good understanding knowledge of Sql<br>80%</li>
+                    </ul>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------project------ -->
+
+    <div id="project">
+        <h1 class="sub-title1">My Project</h1>
+        <div class="project-list">
+            <div>
+                <h2 class="title">Travel agency website project</h2><br>
+                <p>Description:<br><br> Developed a comprehensive web application for a travel agency to streamline
+                    booking processes, manage reservations, and provide information on destinations and travel
+                    package.<span id="dots">...</span><span id="more">Successfully created a professional travel agency website users to
+                        explore destinations ,make bookings and contact the agency.</span></p><br>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                   
+                   
+</div>
+            
+            <div>
+                <h2 class="title">Book Ticket Reservation Java project</h2><br>
+                <p>Description:<br><br> Designed and implemented SQL queries for managing the database and retrieving ticket information.Ensured data security and integrity by implementing robust authentication and authorization mechanisms.<span id="dots1">...</span><span id="more1">Successfully delivered a scalable and user-friendly ticket reservation system, streamlining the booking process for customers and improving overall efficiency.</span></p>
+                <br> 
+                    
+                <button onclick="myFunctionone()" id="myBtn1">Read more</button>     
+            </div>
+            
+            <div>
+                <h2 class="title">Login user Authentication java project</h2><br>
+                <p>Description:<br><br> Developed a web application using Java Servlets and JDBC to create a login page. Implemented user authentication by validating credentials against a MySQL database.
+                Successfully created a professional travel agency website users to
+                explore destinations ,make bookings and contact the agency.<span id="dots2">...</span><span id="more2">Successfully created a functional login page allowing users to authenticate securely.</span></p><br>
+                <button onclick="myFunctiontwo()" id="myBtn2">Read more</button>  
+                
+                       
+            </div>
+                  
+            </div>
+        </div>  
+    </div>
+    <br><br>
+
+    <!-- .........contact.......... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title2">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> ananthisridhar1997@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 7339292826</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Hosur,Tamilnadu</p>
+                    <div class="social-icons">
+                     <a href="https://whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>  
+                     <a href="https://www.linkedin.com/in/ananthisridhar/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+                     <a href="https://github.com/Ananthisridhar" target="_blank"><i class="fab fa-github"></i></i></a> 
+                     <a href="https://www.instagram.com/ananthisridhar1997/" target="_blank"><i class="fab fa-instagram"></i></a>  
+                    </div>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn4">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ 2024 Ananthi.<i class="fas fa-heart"></i>All rights reserved</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontant=document.getElementsByClassName("tab-contant");
+        function opentab(name){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontants of tabcontant)
+            {
+                tabcontants.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(name).classList.add("active-tab");
+        }
+        function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+function myFunctionone() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+function myFunctiontwo() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby8z6Z7ug0KItZnNgO9M75gPlPN6b0XwDug90cakymbN2HBXZYlD4SiheO9XgmDv9eOxw/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML = "Message sent sucessfully"
+    setTimeout(function(){
+        msg.innerHTML = ""
+    },5000)
+    form.reset()})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+ 
+</body>
+</html>
